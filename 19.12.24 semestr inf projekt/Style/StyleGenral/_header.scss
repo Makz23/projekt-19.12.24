@@ -1,0 +1,26 @@
+.header {
+    width: 100vw;
+    height: 18vh;
+  }
+
+nav {
+  background-color: $color2;
+  color: $color3;
+  padding: 10px;
+
+  a {
+    color: $color3;
+    margin-right: 15px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $color5;
+    }
+
+    &.active {
+      text-decoration: underline;
+      font-weight: bold;
+    }
+  }
+}
